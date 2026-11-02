@@ -52,4 +52,7 @@ pnpm dev
 ```sh
 pnpm build
 ```
-
+### 本地修改注意
+1: 修改vite.config.js中的域名，可以设置为"./"或者"/"
+2: windows 本地编译由于pnpm的安全设置，需要手动`pnpm approve-builds`,允许core-js和esbuild，然后正常构建即可。
+3：构建之后的文件位于dist目录下。
