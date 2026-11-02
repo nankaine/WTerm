@@ -12,7 +12,7 @@ const connected = ref(false)
 const serialPortInfo = ref('未选择设备')
 const serialCfg = ref({
     open: false,
-    baudRate: 115200,
+    baudRate: 9600,
     dataBits: 8,
     stopBits: 1,
     parity: 'none',
